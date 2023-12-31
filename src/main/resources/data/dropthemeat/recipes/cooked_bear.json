@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "dropthemeat:raw_bear"
+  },
+  "result": "dropthemeat:cooked_bear",
+  "experience": 0.35,
+  "cookingtime": 200
+}

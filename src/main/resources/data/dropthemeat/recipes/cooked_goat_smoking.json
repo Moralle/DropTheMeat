@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "dropthemeat:raw_goat"
+  },
+  "result": "dropthemeat:cooked_goat",
+  "experience": 0.35,
+  "cookingtime": 100
+}

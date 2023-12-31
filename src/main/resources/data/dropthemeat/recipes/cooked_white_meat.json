@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "dropthemeat:raw_white_meat"
+  },
+  "result": "dropthemeat:cooked_white_meat",
+  "experience": 0.35,
+  "cookingtime": 200
+}

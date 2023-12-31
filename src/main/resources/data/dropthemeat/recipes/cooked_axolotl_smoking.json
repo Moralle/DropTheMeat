@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "dropthemeat:raw_axolotl"
+  },
+  "result": "dropthemeat:cooked_axolotl",
+  "experience": 0.35,
+  "cookingtime": 100
+}

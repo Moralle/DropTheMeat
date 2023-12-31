@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "dropthemeat:raw_strider"
+  },
+  "result": "dropthemeat:cooked_strider",
+  "experience": 0.35,
+  "cookingtime": 100
+}

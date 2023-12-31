@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "dropthemeat:raw_cat"
+  },
+  "result": "dropthemeat:cooked_cat",
+  "experience": 0.35,
+  "cookingtime": 100
+}

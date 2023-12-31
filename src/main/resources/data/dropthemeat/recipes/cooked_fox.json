@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "dropthemeat:raw_fox"
+  },
+  "result": "dropthemeat:cooked_fox",
+  "experience": 0.35,
+  "cookingtime": 200
+}

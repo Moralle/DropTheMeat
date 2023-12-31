@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "dropthemeat:raw_villager"
+  },
+  "result": "dropthemeat:cooked_villager",
+  "experience": 0.35,
+  "cookingtime": 100
+}

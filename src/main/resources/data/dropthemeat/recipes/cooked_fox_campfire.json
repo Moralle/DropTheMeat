@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": {
+    "item": "dropthemeat:raw_fox"
+  },
+  "result": "dropthemeat:cooked_fox",
+  "experience": 0.35,
+  "cookingtime": 600
+}

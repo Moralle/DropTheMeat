@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": {
+    "item": "dropthemeat:raw_red_meat"
+  },
+  "result": "dropthemeat:cooked_red_meat",
+  "experience": 0.35,
+  "cookingtime": 600
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "dropthemeat:raw_bee"
+  },
+  "result": "dropthemeat:cooked_bee",
+  "experience": 0.35,
+  "cookingtime": 100
+}

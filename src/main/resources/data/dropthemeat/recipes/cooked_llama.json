@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "dropthemeat:raw_llama"
+  },
+  "result": "dropthemeat:cooked_llama",
+  "experience": 0.35,
+  "cookingtime": 200
+}

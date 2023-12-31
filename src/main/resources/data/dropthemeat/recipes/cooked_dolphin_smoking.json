@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "dropthemeat:raw_dolphin"
+  },
+  "result": "dropthemeat:cooked_dolphin",
+  "experience": 0.35,
+  "cookingtime": 100
+}

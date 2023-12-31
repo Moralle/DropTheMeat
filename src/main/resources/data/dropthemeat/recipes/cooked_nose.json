@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "dropthemeat:villager_nose"
+  },
+  "result": "minecraft:slime_ball",
+  "experience": 0.35,
+  "cookingtime": 200
+}

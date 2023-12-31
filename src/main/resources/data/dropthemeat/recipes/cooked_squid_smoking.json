@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "dropthemeat:raw_squid"
+  },
+  "result": "dropthemeat:cooked_squid",
+  "experience": 0.35,
+  "cookingtime": 100
+}

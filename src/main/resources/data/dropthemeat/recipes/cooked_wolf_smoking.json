@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "dropthemeat:raw_wolf"
+  },
+  "result": "dropthemeat:cooked_wolf",
+  "experience": 0.35,
+  "cookingtime": 100
+}

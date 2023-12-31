@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "dropthemeat:raw_monster_meat"
+  },
+  "result": "dropthemeat:cooked_monster_meat",
+  "experience": 0.35,
+  "cookingtime": 100
+}

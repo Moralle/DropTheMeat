@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": {
+    "item": "dropthemeat:raw_axolotl"
+  },
+  "result": "dropthemeat:cooked_axolotl",
+  "experience": 0.35,
+  "cookingtime": 600
+}

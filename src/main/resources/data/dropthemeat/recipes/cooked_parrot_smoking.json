@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "dropthemeat:raw_parrot"
+  },
+  "result": "dropthemeat:cooked_parrot",
+  "experience": 0.35,
+  "cookingtime": 100
+}
