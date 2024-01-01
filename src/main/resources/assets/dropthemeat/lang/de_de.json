@@ -42,6 +42,10 @@
 	"item.dropthemeat.raw_goat": "Rohe Ziege",
 	"item.dropthemeat.cooked_axolotl": "Gebratenes Axolotl",
 	"item.dropthemeat.cooked_goat": "Gebratene Ziege",
+	"item.dropthemeat.raw_allay": "Roher Hilfsgeist",
+	"item.dropthemeat.cooked_allay": "Gebratener Hilfsgeist",
+	"item.dropthemeat.raw_frog": "Roher Frosch",
+	"item.dropthemeat.cooked_frog": "Gebratener Frosch",
 	
 	"itemGroup.dropthemeat": "Drop The Meat"
 }

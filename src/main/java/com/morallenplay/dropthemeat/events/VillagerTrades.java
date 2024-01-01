@@ -27,6 +27,9 @@ public class VillagerTrades {
 			if (Config.FOX_TRADE.get()) {
 			event.getTrades().get(3).add(new BasicItemListing(new ItemStack(ItemInit.RAW_FOX.get(), 6), new ItemStack(Items.EMERALD, 1), 16, 4, 0.05f));
 			}
+			if (Config.FROG_TRADE.get()) {
+				event.getTrades().get(3).add(new BasicItemListing(new ItemStack(ItemInit.RAW_FROG.get(), 6), new ItemStack(Items.EMERALD, 1), 16, 4, 0.05f));
+			}
 			if (Config.HORSE_TRADE.get()) {
 			event.getTrades().get(5).add(new BasicItemListing(new ItemStack(ItemInit.RAW_HORSE.get(), 10), new ItemStack(Items.EMERALD, 1), 16, 20, 0.05f));
 			}
@@ -72,6 +75,9 @@ public class VillagerTrades {
 			}
 			if (Config.AXOLOTL_TRADE.get()) {
 				event.getTrades().get(2).add(new BasicItemListing(new ItemStack(ItemInit.RAW_AXOLOTL.get(), 4), new ItemStack(Items.EMERALD, 1), 16, 2, 0.05f));
+			}
+			if (Config.ALLAY_TRADE.get()) {
+				event.getTrades().get(5).add(new BasicItemListing(new ItemStack(ItemInit.RAW_ALLAY.get(), 4), new ItemStack(Items.EMERALD, 1), 16, 30, 0.05f));
 			}
 		}
 	}

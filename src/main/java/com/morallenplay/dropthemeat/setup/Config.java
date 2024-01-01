@@ -10,6 +10,7 @@ public class Config {
 	
 	public static final String CATEGORY_MEAT = "meat";
 	
+	public static ForgeConfigSpec.BooleanValue ALLAY_MEAT;
 	public static ForgeConfigSpec.BooleanValue AXOLOTL_MEAT;
 	public static ForgeConfigSpec.BooleanValue BAT_MEAT;
 	public static ForgeConfigSpec.BooleanValue BEE_MEAT;
@@ -17,6 +18,7 @@ public class Config {
 	public static ForgeConfigSpec.BooleanValue DOLPHIN_MEAT;
 	public static ForgeConfigSpec.BooleanValue DONKEY_MEAT;
 	public static ForgeConfigSpec.BooleanValue FOX_MEAT;
+	public static ForgeConfigSpec.BooleanValue FROG_MEAT;
 	public static ForgeConfigSpec.BooleanValue GLOW_SQUID_MEAT;
 	public static ForgeConfigSpec.BooleanValue GOAT_MEAT;
 	public static ForgeConfigSpec.BooleanValue HORSE_MEAT;
@@ -39,6 +41,7 @@ public class Config {
 	
 	public static final String CATEGORY_TRADES = "trades";
 	
+	public static ForgeConfigSpec.BooleanValue ALLAY_TRADE;
 	public static ForgeConfigSpec.BooleanValue AXOLOTL_TRADE;
 	public static ForgeConfigSpec.BooleanValue BAT_TRADE;
 	public static ForgeConfigSpec.BooleanValue BEAR_TRADE;
@@ -46,6 +49,7 @@ public class Config {
 	public static ForgeConfigSpec.BooleanValue CAT_TRADE;
 	public static ForgeConfigSpec.BooleanValue DOLPHIN_TRADE;
 	public static ForgeConfigSpec.BooleanValue FOX_TRADE;
+	public static ForgeConfigSpec.BooleanValue FROG_TRADE;
 	public static ForgeConfigSpec.BooleanValue GOAT_TRADE;
 	public static ForgeConfigSpec.BooleanValue HORSE_TRADE;
 	public static ForgeConfigSpec.BooleanValue IRON_GOLEM_TRADE;
@@ -64,6 +68,7 @@ public class Config {
 		ForgeConfigSpec.Builder COMMON_BUILDER = new ForgeConfigSpec.Builder();
 		
 		COMMON_BUILDER.comment("Enable/Disable Meat").push(CATEGORY_MEAT);
+		ALLAY_MEAT = COMMON_BUILDER.comment("Enable Allay Meat?").define("enableAllayMeat", true);
 		AXOLOTL_MEAT = COMMON_BUILDER.comment("Enable Axolotl Meat?").define("enableAxolotlMeat", true);
 		BAT_MEAT = COMMON_BUILDER.comment("Enable Bat Meat?").define("enableBatMeat", true);
 		BEE_MEAT = COMMON_BUILDER.comment("Enable Bee Meat?").define("enableBeeMeat", true);
@@ -72,6 +77,7 @@ public class Config {
 		DONKEY_MEAT = COMMON_BUILDER.comment("Enable Horse Meat from Donkeys?").define("enableDonkeyMeat", true);
 		GLOW_SQUID_MEAT = COMMON_BUILDER.comment("Enable Glow Squid Meat?").define("enableGlowSquidMeat", true);
 		FOX_MEAT = COMMON_BUILDER.comment("Enable Fox Meat?").define("enableFoxMeat", true);
+		FROG_MEAT = COMMON_BUILDER.comment("Enable Frog Meat?").define("enableFrogMeat", true);
 		GOAT_MEAT = COMMON_BUILDER.comment("Enable Goat Meat?").define("enableGoatMeat", true);
 		HORSE_MEAT = COMMON_BUILDER.comment("Enable Horse Meat from Horses?").define("enableHorseMeat", true);
 		IRON_GOLEM_MEAT = COMMON_BUILDER.comment("Enable Iron Golem Meat?").define("enableIronGolemMeat", true);
@@ -95,11 +101,13 @@ public class Config {
 		COMMON_BUILDER.comment("Enable/Disable Butcher Trades").push(CATEGORY_TRADES);
 		BEAR_TRADE = COMMON_BUILDER.comment("Enable Bear Meat Trades? (Default: True)").define("enableBearMeatTrades", true);
 		FOX_TRADE = COMMON_BUILDER.comment("Enable Fox Meat Trades? (Default: True)").define("enableFoxMeatTrades", true);
+		FROG_TRADE = COMMON_BUILDER.comment("Enable Frog Meat Trades? (Default: True)").define("enableFrogMeatTrades", true);
 		GOAT_TRADE = COMMON_BUILDER.comment("Enable Goat Meat Trades? (Default: True)").define("enableGoatMeatTrades", true);
 		HORSE_TRADE = COMMON_BUILDER.comment("Enable Horse Meat Trades? (Default: True)").define("enableHorseMeatTrades", true);
 		LLAMA_TRADE = COMMON_BUILDER.comment("Enable Llama Meat Trades? (Default: True)").define("enableLlamaMeatTrades", true);
 		SQUID_TRADE = COMMON_BUILDER.comment("Enable Squid Meat Trades? (Default: True)").define("enableSquidMeatTrades", true);
 		WOLF_TRADE = COMMON_BUILDER.comment("Enable Wolf Meat Trades? (Default: True)").define("enableWolfMeatTrades", true);
+		ALLAY_TRADE = COMMON_BUILDER.comment("Enable Allay Meat Trades? (Default: False)").define("enableAllayMeatTrades", false);
 		AXOLOTL_TRADE = COMMON_BUILDER.comment("Enable Axolotl Meat Trades? (Default: False)").define("enableAxolotlMeatTrades", false);
 		BAT_TRADE = COMMON_BUILDER.comment("Enable Bat Meat Trades? (Default: False)").define("enableBatMeatTrades", false);
 		BEE_TRADE = COMMON_BUILDER.comment("Enable Bee Meat Trades? (Default: False)").define("enableBeeMeatTrades", false);

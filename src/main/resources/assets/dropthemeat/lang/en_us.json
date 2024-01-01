@@ -43,6 +43,10 @@
 	"item.dropthemeat.raw_goat": "Raw Goat",
 	"item.dropthemeat.cooked_axolotl": "Cooked Axolotl",
 	"item.dropthemeat.cooked_goat": "Cooked Goat",
+	"item.dropthemeat.raw_allay": "Raw Allay",
+	"item.dropthemeat.cooked_allay": "Cooked Allay",
+	"item.dropthemeat.raw_frog": "Raw Frog",
+	"item.dropthemeat.cooked_frog": "Cooked Frog",
 	
 	"itemGroup.dropthemeat": "Drop The Meat"
 }

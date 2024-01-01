@@ -40,6 +40,8 @@ public class MeatDrop {
 	private static ResourceLocation axolotl = new ResourceLocation("minecraft", "entities/axolotl");
 	private static ResourceLocation goat = new ResourceLocation("minecraft", "entities/goat");
 	private static ResourceLocation glow_squid = new ResourceLocation("minecraft", "entities/glow_squid");
+	private static ResourceLocation frog = new ResourceLocation("minecraft", "entities/frog");
+	private static ResourceLocation allay = new ResourceLocation("minecraft", "entities/allay");
 	
 	@SubscribeEvent
     public static void onLootLoad(LootTableLoadEvent event) {
@@ -120,6 +122,12 @@ public class MeatDrop {
         }
         if (event.getName().equals(glow_squid)&&Config.GLOW_SQUID_MEAT.get()) {
             event.getTable().addPool(LootPool.lootPool().add(LootTableReference.lootTableReference(new ResourceLocation(DropTheMeat.MOD_ID, "entities/squid")).setWeight(1).setQuality(0)).name("dm_squid").build());
+        }
+        if (event.getName().equals(frog)&&Config.FROG_MEAT.get()) {
+            event.getTable().addPool(LootPool.lootPool().add(LootTableReference.lootTableReference(new ResourceLocation(DropTheMeat.MOD_ID, "entities/frog")).setWeight(1).setQuality(0)).name("dm_frog").build());
+        }
+        if (event.getName().equals(allay)&&Config.ALLAY_MEAT.get()) {
+            event.getTable().addPool(LootPool.lootPool().add(LootTableReference.lootTableReference(new ResourceLocation(DropTheMeat.MOD_ID, "entities/allay")).setWeight(1).setQuality(0)).name("dm_allay").build());
         }
     }
 }

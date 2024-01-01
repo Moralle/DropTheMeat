@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "dropthemeat:raw_allay"
+  },
+  "result": "dropthemeat:cooked_allay",
+  "experience": 0.35,
+  "cookingtime": 200
+}
