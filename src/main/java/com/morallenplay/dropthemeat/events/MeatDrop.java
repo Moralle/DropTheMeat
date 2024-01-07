@@ -42,6 +42,8 @@ public class MeatDrop {
 	private static ResourceLocation glow_squid = new ResourceLocation("minecraft", "entities/glow_squid");
 	private static ResourceLocation frog = new ResourceLocation("minecraft", "entities/frog");
 	private static ResourceLocation allay = new ResourceLocation("minecraft", "entities/allay");
+	private static ResourceLocation camel = new ResourceLocation("minecraft", "entities/camel");
+	private static ResourceLocation sniffer = new ResourceLocation("minecraft", "entities/sniffer");
 	
 	@SubscribeEvent
     public static void onLootLoad(LootTableLoadEvent event) {
@@ -128,6 +130,12 @@ public class MeatDrop {
         }
         if (event.getName().equals(allay)&&Config.ALLAY_MEAT.get()) {
             event.getTable().addPool(LootPool.lootPool().add(LootTableReference.lootTableReference(new ResourceLocation(DropTheMeat.MOD_ID, "entities/allay")).setWeight(1).setQuality(0)).name("dm_allay").build());
+        }
+        if (event.getName().equals(camel)&&Config.CAMEL_MEAT.get()) {
+            event.getTable().addPool(LootPool.lootPool().add(LootTableReference.lootTableReference(new ResourceLocation(DropTheMeat.MOD_ID, "entities/camel")).setWeight(1).setQuality(0)).name("dm_camel").build());
+        }
+        if (event.getName().equals(sniffer)&&Config.SNIFFER_MEAT.get()) {
+            event.getTable().addPool(LootPool.lootPool().add(LootTableReference.lootTableReference(new ResourceLocation(DropTheMeat.MOD_ID, "entities/sniffer")).setWeight(1).setQuality(0)).name("dm_sniffer").build());
         }
     }
 }

@@ -16,6 +16,7 @@ public class ItemInit {
 	public static final RegistryObject<Item> RAW_BAT = ITEMS.register("raw_bat", () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(1).saturationMod(0.2F).meat().build())));
 	public static final RegistryObject<Item> RAW_BEAR = ITEMS.register("raw_bear", () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(3).saturationMod(0.3F).meat().build())));
 	public static final RegistryObject<Item> RAW_BEE = ITEMS.register("raw_bee", () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(2).saturationMod(0.2F).meat().build())));
+	public static final RegistryObject<Item> RAW_CAMEL = ITEMS.register("raw_camel", () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(3).saturationMod(0.3F).meat().build())));
 	public static final RegistryObject<Item> RAW_CAT = ITEMS.register("raw_cat", () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(2).saturationMod(0.1F).meat().build())));
 	public static final RegistryObject<Item> RAW_DOLPHIN = ITEMS.register("raw_dolphin", () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(3).saturationMod(0.3F).meat().build())));
 	public static final RegistryObject<Item> RAW_FOX = ITEMS.register("raw_fox", () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(2).saturationMod(0.1F).meat().build())));
@@ -24,6 +25,7 @@ public class ItemInit {
 	public static final RegistryObject<Item> RAW_HORSE = ITEMS.register("raw_horse", () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(3).saturationMod(0.3F).meat().build())));
 	public static final RegistryObject<Item> RAW_LLAMA = ITEMS.register("raw_llama", () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(3).saturationMod(0.3F).meat().build())));
 	public static final RegistryObject<Item> RAW_PARROT = ITEMS.register("raw_parrot", () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(1).saturationMod(0.2F).meat().build())));
+	public static final RegistryObject<Item> RAW_SNIFFER = ITEMS.register("raw_sniffer", () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(3).saturationMod(0.2F).meat().build())));
 	public static final RegistryObject<Item> RAW_SQUID = ITEMS.register("raw_squid", () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(2).saturationMod(0.45F).meat().build())));
 	public static final RegistryObject<Item> RAW_TURTLE = ITEMS.register("raw_turtle", () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(2).saturationMod(0.1F).meat().build())));
 	public static final RegistryObject<Item> RAW_VILLAGER = ITEMS.register("raw_villager", () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(3).saturationMod(0.2F).meat().build())));
@@ -37,6 +39,7 @@ public class ItemInit {
 	public static final RegistryObject<Item> COOKED_BAT = ITEMS.register("cooked_bat", () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(4).saturationMod(0.6F).meat().build())));
 	public static final RegistryObject<Item> COOKED_BEAR = ITEMS.register("cooked_bear", () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(8).saturationMod(0.8F).meat().build())));
 	public static final RegistryObject<Item> COOKED_BEE = ITEMS.register("cooked_bee", () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(0.5F).meat().build())));
+	public static final RegistryObject<Item> COOKED_CAMEL = ITEMS.register("cooked_camel", () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(7).saturationMod(0.7F).meat().build())));
 	public static final RegistryObject<Item> COOKED_CAT = ITEMS.register("cooked_cat", () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(5).saturationMod(0.4F).meat().build())));
 	public static final RegistryObject<Item> COOKED_DOLPHIN = ITEMS.register("cooked_dolphin", () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(8).saturationMod(0.8F).meat().build())));
 	public static final RegistryObject<Item> COOKED_FOX = ITEMS.register("cooked_fox", () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(5).saturationMod(0.4F).meat().build())));
@@ -45,6 +48,7 @@ public class ItemInit {
 	public static final RegistryObject<Item> COOKED_HORSE = ITEMS.register("cooked_horse", () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(8).saturationMod(0.8F).meat().build())));
 	public static final RegistryObject<Item> COOKED_LLAMA = ITEMS.register("cooked_llama", () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(0.8F).meat().build())));
 	public static final RegistryObject<Item> COOKED_PARROT = ITEMS.register("cooked_parrot", () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(4).saturationMod(0.7F).meat().build())));
+	public static final RegistryObject<Item> COOKED_SNIFFER = ITEMS.register("cooked_sniffer", () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(8).saturationMod(0.5F).meat().build())));
 	public static final RegistryObject<Item> COOKED_SQUID = ITEMS.register("cooked_squid", () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(7).saturationMod(0.7F).meat().build())));
 	public static final RegistryObject<Item> COOKED_TURTLE = ITEMS.register("cooked_turtle", () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(0.5F).meat().build())));
 	public static final RegistryObject<Item> COOKED_VILLAGER = ITEMS.register("cooked_villager", () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(5).saturationMod(0.4F).meat().build())));

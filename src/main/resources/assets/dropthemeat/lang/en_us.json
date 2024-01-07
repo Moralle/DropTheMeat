@@ -47,6 +47,10 @@
 	"item.dropthemeat.cooked_allay": "Cooked Allay",
 	"item.dropthemeat.raw_frog": "Raw Frog",
 	"item.dropthemeat.cooked_frog": "Cooked Frog",
+	"item.dropthemeat.raw_camel": "Raw Camel",
+	"item.dropthemeat.cooked_camel": "Cooked Camel",
+	"item.dropthemeat.raw_sniffer": "Raw Sniffer",
+	"item.dropthemeat.cooked_sniffer": "Cooked Sniffer",
 	
 	"itemGroup.dropthemeat": "Drop The Meat"
 }

@@ -19,7 +19,7 @@
 	"item.dropthemeat.cooked_bee": "Gebratene Biene",
 	"item.dropthemeat.cooked_cat": "Gebratene Katze",
 	"item.dropthemeat.cooked_dolphin": "Gebratener Delfin",
-	"item.dropthemeat.cooked_fox": "Gebratener Fucks",
+	"item.dropthemeat.cooked_fox": "Gebratener Fuchs",
 	"item.dropthemeat.cooked_horse": "Gebratenes Pferd",
 	"item.dropthemeat.cooked_llama": "Gebratenes Llama",
 	"item.dropthemeat.cooked_parrot": "Gebratener Papagei",
@@ -46,6 +46,10 @@
 	"item.dropthemeat.cooked_allay": "Gebratener Hilfsgeist",
 	"item.dropthemeat.raw_frog": "Roher Frosch",
 	"item.dropthemeat.cooked_frog": "Gebratener Frosch",
+	"item.dropthemeat.raw_camel": "Rohes Kamel",
+	"item.dropthemeat.cooked_camel": "Gekochtes Kamel",
+	"item.dropthemeat.raw_sniffer": "Roher Schnüffler",
+	"item.dropthemeat.cooked_sniffer": "Gekochter Schnüffler",
 	
 	"itemGroup.dropthemeat": "Drop The Meat"
 }

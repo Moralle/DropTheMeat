@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": {
+    "item": "dropthemeat:raw_camel"
+  },
+  "result": "dropthemeat:cooked_camel",
+  "experience": 0.35,
+  "cookingtime": 600
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "dropthemeat:raw_sniffer"
+  },
+  "result": "dropthemeat:cooked_sniffer",
+  "experience": 0.35,
+  "cookingtime": 200
+}
