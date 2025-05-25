@@ -51,6 +51,8 @@
 	"item.dropthemeat.cooked_camel": "Cooked Camel",
 	"item.dropthemeat.raw_sniffer": "Raw Sniffer",
 	"item.dropthemeat.cooked_sniffer": "Cooked Sniffer",
+	"item.dropthemeat.frozen_golem_nugget": "Frozen Golem Nugget",
+	"item.dropthemeat.cooked_golem_nugget": "Cooked Golem Nugget",
 	
 	"itemGroup.dropthemeat": "Drop The Meat"
 }

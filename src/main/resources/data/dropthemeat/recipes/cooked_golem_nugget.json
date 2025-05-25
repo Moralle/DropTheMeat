@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "dropthemeat:frozen_golem_nugget"
+  },
+  "result": "dropthemeat:cooked_golem_nugget",
+  "experience": 0.35,
+  "cookingtime": 200
+}

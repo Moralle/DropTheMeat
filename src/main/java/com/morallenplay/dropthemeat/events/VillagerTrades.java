@@ -85,6 +85,9 @@ public class VillagerTrades {
 			if (Config.SNIFFER_TRADE.get()) {
 				event.getTrades().get(5).add(new BasicItemListing(new ItemStack(ItemInit.RAW_SNIFFER.get(), 4), new ItemStack(Items.EMERALD, 1), 16, 30, 0.05f));
 			}
+			if (Config.SNOW_GOLEM_TRADE.get()) {
+				event.getTrades().get(5).add(new BasicItemListing(new ItemStack(ItemInit.RAW_SNIFFER.get(), 4), new ItemStack(Items.EMERALD, 1), 16, 30, 0.05f));
+			}
 		}
 	}
 }

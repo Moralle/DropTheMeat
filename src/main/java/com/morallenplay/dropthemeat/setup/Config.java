@@ -33,6 +33,7 @@ public class Config {
 	public static ForgeConfigSpec.BooleanValue PIGLIN_BRUTE_MEAT;
 	public static ForgeConfigSpec.BooleanValue POLAR_BEAR_MEAT;
 	public static ForgeConfigSpec.BooleanValue SNIFFER_MEAT;
+	public static ForgeConfigSpec.BooleanValue SNOW_GOLEM_MEAT;
 	public static ForgeConfigSpec.BooleanValue SQUID_MEAT;
 	public static ForgeConfigSpec.BooleanValue STRIDER_MEAT;
 	public static ForgeConfigSpec.BooleanValue TRADER_LLAMA_MEAT;
@@ -60,6 +61,7 @@ public class Config {
 	public static ForgeConfigSpec.BooleanValue PARROT_TRADE;
 	public static ForgeConfigSpec.BooleanValue PIGLIN_TRADE;
 	public static ForgeConfigSpec.BooleanValue SNIFFER_TRADE;
+	public static ForgeConfigSpec.BooleanValue SNOW_GOLEM_TRADE;
 	public static ForgeConfigSpec.BooleanValue SQUID_TRADE;
 	public static ForgeConfigSpec.BooleanValue STRIDER_TRADE;
 	public static ForgeConfigSpec.BooleanValue TURTLE_TRADE;
@@ -95,6 +97,7 @@ public class Config {
 		PIGLIN_BRUTE_MEAT = COMMON_BUILDER.comment("Enable Piglin Porkchops from Pigling Brutes?").define("enablePiglinBruteMeat", true);
 		POLAR_BEAR_MEAT = COMMON_BUILDER.comment("Enable Bear Meat from Polar Bears?").define("enablePolarBearMeat", true);
 		SNIFFER_MEAT = COMMON_BUILDER.comment("Enable Sniffer Meat?").define("enableSnifferMeat", true);
+		SNOW_GOLEM_MEAT = COMMON_BUILDER.comment("Enable Snow Golem Meat?").define("enableSnowGolemMeat", true);
 		SQUID_MEAT = COMMON_BUILDER.comment("Enable Squid Meat?").define("enableSquidMeat", true);
 		STRIDER_MEAT = COMMON_BUILDER.comment("Enable Strider Meat?").define("enableStriderMeat", true);
 		TRADER_LLAMA_MEAT = COMMON_BUILDER.comment("Enable Llama Meat from Trader Llamas?").define("enableTraderLlamasMeat", true);
@@ -124,6 +127,7 @@ public class Config {
 		PARROT_TRADE = COMMON_BUILDER.comment("Enable Parrot Meat Trades? (Default: False)").define("enableParrotMeatTrades", false);
 		PIGLIN_TRADE = COMMON_BUILDER.comment("Enable Piglin Porkchop Trades? (Default: False)").define("enablePiglinPorkchopTrades", false);
 		SNIFFER_TRADE = COMMON_BUILDER.comment("Enable Sniffer Meat Trades? (Default: False)").define("enableSnifferMeatTrades", false);
+		SNOW_GOLEM_TRADE = COMMON_BUILDER.comment("Enable Snow Golem Meat Trades? (Default: False)").define("enableSnowGolemMeatTrades", false);
 		STRIDER_TRADE = COMMON_BUILDER.comment("Enable Strider Meat Trades? (Default: False)").define("enableStriderMeatTrades", false);
 		TURTLE_TRADE = COMMON_BUILDER.comment("Enable Turtle Meat Trades? (Default: False)").define("enableTurtleMeatTrades", false);
 		VILLAGER_TRADE = COMMON_BUILDER.comment("Enable Villager Meat Trades? (Default: False)").define("enableVillagerMeatTrades", false);

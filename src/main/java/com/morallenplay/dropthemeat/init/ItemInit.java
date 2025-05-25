@@ -32,6 +32,7 @@ public class ItemInit {
 	public static final RegistryObject<Item> RAW_WOLF = ITEMS.register("raw_wolf", () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(2).saturationMod(0.3F).meat().build())));
 	public static final RegistryObject<Item> RAW_STRIDER = ITEMS.register("raw_strider", () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(3).saturationMod(0.2F).meat().build())));
 	public static final RegistryObject<Item> RAW_IRON_GOLEM = ITEMS.register("raw_iron_golem", () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(4).saturationMod(0.75F).meat().build())));
+	public static final RegistryObject<Item> FROZEN_GOLEM_NUGGET = ITEMS.register("frozen_golem_nugget", () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(2).saturationMod(0.3F).meat().build())));
 	public static final RegistryObject<Item> PIGLIN_PORKCHOP = ITEMS.register("piglin_porkchop", () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(4).saturationMod(0.75F).meat().build())));
 	public static final RegistryObject<Item> VILLAGER_NOSE = ITEMS.register("villager_nose", () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(9).saturationMod(0.7F).meat().build())));
 	public static final RegistryObject<Item> COOKED_ALLAY = ITEMS.register("cooked_allay", () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(4).saturationMod(0.5F).meat().build())));
@@ -54,6 +55,7 @@ public class ItemInit {
 	public static final RegistryObject<Item> COOKED_VILLAGER = ITEMS.register("cooked_villager", () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(5).saturationMod(0.4F).meat().build())));
 	public static final RegistryObject<Item> COOKED_WOLF = ITEMS.register("cooked_wolf", () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(5).saturationMod(0.4F).meat().build())));
 	public static final RegistryObject<Item> COOKED_STRIDER = ITEMS.register("cooked_strider", () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(5).saturationMod(0.4F).meat().build())));
+	public static final RegistryObject<Item> COOKED_GOLEM_NUGGET = ITEMS.register("cooked_golem_nugget", () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(5).saturationMod(1.2F).meat().fast().build())));
 	public static final RegistryObject<Item> COOKED_IRON_GOLEM = ITEMS.register("cooked_iron_golem", () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(8).saturationMod(0.85F).meat().build())));
 	public static final RegistryObject<Item> COOKED_PIGLIN_PORKCHOP = ITEMS.register("cooked_piglin_porkchop", () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(8).saturationMod(0.85F).meat().build())));
 	public static final RegistryObject<Item> RAW_RED_MEAT = ITEMS.register("raw_red_meat", () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(2).saturationMod(0.3F).meat().build())));

@@ -39,6 +39,7 @@ public class CreativeTabRegistry {
 				    	output.accept(ItemInit.RAW_TURTLE.get());
 				    	output.accept(ItemInit.RAW_VILLAGER.get());
 				    	output.accept(ItemInit.RAW_WOLF.get());
+				    	output.accept(ItemInit.FROZEN_GOLEM_NUGGET.get());
 				    	output.accept(ItemInit.PIGLIN_PORKCHOP.get());
 				    	output.accept(ItemInit.VILLAGER_NOSE.get());
 				    	output.accept(ItemInit.COOKED_ALLAY.get());
@@ -62,6 +63,7 @@ public class CreativeTabRegistry {
 				    	output.accept(ItemInit.COOKED_TURTLE.get());
 				    	output.accept(ItemInit.COOKED_VILLAGER.get());
 				    	output.accept(ItemInit.COOKED_WOLF.get());
+				    	output.accept(ItemInit.COOKED_GOLEM_NUGGET.get());
 				    	output.accept(ItemInit.COOKED_PIGLIN_PORKCHOP.get());
 				    	output.accept(ItemInit.RAW_RED_MEAT.get());
 				    	output.accept(ItemInit.RAW_WHITE_MEAT.get());

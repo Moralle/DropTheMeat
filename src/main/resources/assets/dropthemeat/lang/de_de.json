@@ -50,6 +50,8 @@
 	"item.dropthemeat.cooked_camel": "Gekochtes Kamel",
 	"item.dropthemeat.raw_sniffer": "Roher Schnüffler",
 	"item.dropthemeat.cooked_sniffer": "Gekochter Schnüffler",
+	"item.dropthemeat.frozen_golem_nugget": "Gefrohrenes Golemnugget",
+	"item.dropthemeat.cooked_golem_nugget": "Gekochtes Golemnugget",
 	
 	"itemGroup.dropthemeat": "Drop The Meat"
 }
