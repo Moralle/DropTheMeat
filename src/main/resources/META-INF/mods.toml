@@ -16,7 +16,7 @@ issueTrackerURL="http://my.issue.tracker/" #optional
 [[mods]] #mandatory
 modId="dropthemeat" #mandatory
 
-version="1.7" #mandatory
+version="1.7.1" #mandatory
 
 displayName="Drop the Meat" #mandatory
 
