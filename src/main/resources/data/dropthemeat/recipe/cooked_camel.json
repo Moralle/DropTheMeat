@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "ingredient": {
+    "item": "dropthemeat:raw_camel"
+  },
+  "result": {
+     "id": "dropthemeat:cooked_camel"
+  },
+  "experience": 0.35,
+  "cookingtime": 200
+}

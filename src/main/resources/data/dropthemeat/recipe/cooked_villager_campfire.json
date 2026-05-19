@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "ingredient": {
+    "item": "dropthemeat:raw_villager"
+  },
+  "result": {
+     "id": "dropthemeat:cooked_villager"
+  },
+  "experience": 0.35,
+  "cookingtime": 600
+}

@@ -1,0 +1,31 @@
+{
+   "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farmersdelight"
+    }
+  ],
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "dropthemeat:piglin_porkchop"
+    }
+  ],
+  "tool": [
+    {
+      "type": "farmersdelight:item_ability",
+      "action": "knife_dig"
+    },
+    {
+      "tag": "c:tools/knife"
+    }
+  ],
+  "result": [
+	{
+		"item": {
+		  "id": "farmersdelight:bacon",
+		  "count": 3
+		}
+	}
+  ]
+}

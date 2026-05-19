@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "ingredient": {
+    "item": "dropthemeat:raw_iron_golem"
+  },
+  "result": {
+     "id": "dropthemeat:cooked_iron_golem"
+  },
+  "experience": 0.35,
+  "cookingtime": 100
+}

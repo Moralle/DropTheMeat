@@ -1,0 +1,19 @@
+{
+    "type": "neoforge:add_table",
+    "conditions": [
+		{
+			"condition": "minecraft:all_of",
+			"terms": [
+				{
+					"condition": "dropthemeat:loot_config",
+					"config": "wandering_trader_config"
+				},
+				{
+					"condition": "neoforge:loot_table_id",
+					"loot_table_id": "minecraft:entities/wandering_trader"
+				}
+			]
+		}
+	],
+    "table": "dropthemeat:entities/villager"
+}

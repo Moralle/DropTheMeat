@@ -1,80 +1,85 @@
 package com.morallenplay.dropthemeat.setup;
 
-import net.minecraftforge.common.ForgeConfigSpec;
-import net.minecraftforge.fml.common.Mod;
+import java.util.HashMap;
 
-@Mod.EventBusSubscriber
+import net.neoforged.neoforge.common.ModConfigSpec;
+
 public class Config {
 	
-	public static ForgeConfigSpec COMMON_CONFIG;
+	public static ModConfigSpec COMMON_CONFIG;
 	
 	public static final String CATEGORY_MEAT = "meat";
 	
-	public static ForgeConfigSpec.BooleanValue ALLAY_MEAT;
-	public static ForgeConfigSpec.BooleanValue AXOLOTL_MEAT;
-	public static ForgeConfigSpec.BooleanValue BAT_MEAT;
-	public static ForgeConfigSpec.BooleanValue BEE_MEAT;
-	public static ForgeConfigSpec.BooleanValue CAMEL_MEAT;
-	public static ForgeConfigSpec.BooleanValue CAT_MEAT;
-	public static ForgeConfigSpec.BooleanValue DOLPHIN_MEAT;
-	public static ForgeConfigSpec.BooleanValue DONKEY_MEAT;
-	public static ForgeConfigSpec.BooleanValue FOX_MEAT;
-	public static ForgeConfigSpec.BooleanValue FROG_MEAT;
-	public static ForgeConfigSpec.BooleanValue GLOW_SQUID_MEAT;
-	public static ForgeConfigSpec.BooleanValue GOAT_MEAT;
-	public static ForgeConfigSpec.BooleanValue HORSE_MEAT;
-	public static ForgeConfigSpec.BooleanValue IRON_GOLEM_MEAT;
-	public static ForgeConfigSpec.BooleanValue LLAMA_MEAT;
-	public static ForgeConfigSpec.BooleanValue MULE_MEAT;
-	public static ForgeConfigSpec.BooleanValue OCELOT_MEAT;
-	public static ForgeConfigSpec.BooleanValue PANDA_MEAT;
-	public static ForgeConfigSpec.BooleanValue PARROT_MEAT;
-	public static ForgeConfigSpec.BooleanValue PIGLIN_MEAT;
-	public static ForgeConfigSpec.BooleanValue PIGLIN_BRUTE_MEAT;
-	public static ForgeConfigSpec.BooleanValue POLAR_BEAR_MEAT;
-	public static ForgeConfigSpec.BooleanValue SNIFFER_MEAT;
-	public static ForgeConfigSpec.BooleanValue SNOW_GOLEM_MEAT;
-	public static ForgeConfigSpec.BooleanValue SQUID_MEAT;
-	public static ForgeConfigSpec.BooleanValue STRIDER_MEAT;
-	public static ForgeConfigSpec.BooleanValue TRADER_LLAMA_MEAT;
-	public static ForgeConfigSpec.BooleanValue TURTLE_MEAT;
-	public static ForgeConfigSpec.BooleanValue VILLAGER_MEAT;
-	public static ForgeConfigSpec.BooleanValue WANDERING_TRADER_MEAT;
-	public static ForgeConfigSpec.BooleanValue WOLF_MEAT;
+	public static ModConfigSpec.BooleanValue ALLAY_MEAT;
+	public static ModConfigSpec.BooleanValue ARMADILLO_MEAT;
+	public static ModConfigSpec.BooleanValue AXOLOTL_MEAT;
+	public static ModConfigSpec.BooleanValue BAT_MEAT;
+	public static ModConfigSpec.BooleanValue BEE_MEAT;
+	public static ModConfigSpec.BooleanValue CAMEL_MEAT;
+	public static ModConfigSpec.BooleanValue CAT_MEAT;
+	public static ModConfigSpec.BooleanValue DOLPHIN_MEAT;
+	public static ModConfigSpec.BooleanValue DONKEY_MEAT;
+	public static ModConfigSpec.BooleanValue FOX_MEAT;
+	public static ModConfigSpec.BooleanValue FROG_MEAT;
+	public static ModConfigSpec.BooleanValue GLOW_SQUID_MEAT;
+	public static ModConfigSpec.BooleanValue GOAT_MEAT;
+	public static ModConfigSpec.BooleanValue HORSE_MEAT;
+	public static ModConfigSpec.BooleanValue IRON_GOLEM_MEAT;
+	public static ModConfigSpec.BooleanValue LLAMA_MEAT;
+	public static ModConfigSpec.BooleanValue MULE_MEAT;
+	public static ModConfigSpec.BooleanValue OCELOT_MEAT;
+	public static ModConfigSpec.BooleanValue PANDA_MEAT;
+	public static ModConfigSpec.BooleanValue PARROT_MEAT;
+	public static ModConfigSpec.BooleanValue PIGLIN_MEAT;
+	public static ModConfigSpec.BooleanValue PIGLIN_BRUTE_MEAT;
+	public static ModConfigSpec.BooleanValue POLAR_BEAR_MEAT;
+	public static ModConfigSpec.BooleanValue SNIFFER_MEAT;
+	public static ModConfigSpec.BooleanValue SNOW_GOLEM_MEAT;
+	public static ModConfigSpec.BooleanValue SQUID_MEAT;
+	public static ModConfigSpec.BooleanValue STRIDER_MEAT;
+	public static ModConfigSpec.BooleanValue TRADER_LLAMA_MEAT;
+	public static ModConfigSpec.BooleanValue TURTLE_MEAT;
+	public static ModConfigSpec.BooleanValue VILLAGER_MEAT;
+	public static ModConfigSpec.BooleanValue WANDERING_TRADER_MEAT;
+	public static ModConfigSpec.BooleanValue WOLF_MEAT;
 	
 	public static final String CATEGORY_TRADES = "trades";
 	
-	public static ForgeConfigSpec.BooleanValue ALLAY_TRADE;
-	public static ForgeConfigSpec.BooleanValue AXOLOTL_TRADE;
-	public static ForgeConfigSpec.BooleanValue BAT_TRADE;
-	public static ForgeConfigSpec.BooleanValue BEAR_TRADE;
-	public static ForgeConfigSpec.BooleanValue BEE_TRADE;
-	public static ForgeConfigSpec.BooleanValue CAMEL_TRADE;
-	public static ForgeConfigSpec.BooleanValue CAT_TRADE;
-	public static ForgeConfigSpec.BooleanValue DOLPHIN_TRADE;
-	public static ForgeConfigSpec.BooleanValue FOX_TRADE;
-	public static ForgeConfigSpec.BooleanValue FROG_TRADE;
-	public static ForgeConfigSpec.BooleanValue GOAT_TRADE;
-	public static ForgeConfigSpec.BooleanValue HORSE_TRADE;
-	public static ForgeConfigSpec.BooleanValue IRON_GOLEM_TRADE;
-	public static ForgeConfigSpec.BooleanValue LLAMA_TRADE;
-	public static ForgeConfigSpec.BooleanValue PARROT_TRADE;
-	public static ForgeConfigSpec.BooleanValue PIGLIN_TRADE;
-	public static ForgeConfigSpec.BooleanValue SNIFFER_TRADE;
-	public static ForgeConfigSpec.BooleanValue SNOW_GOLEM_TRADE;
-	public static ForgeConfigSpec.BooleanValue SQUID_TRADE;
-	public static ForgeConfigSpec.BooleanValue STRIDER_TRADE;
-	public static ForgeConfigSpec.BooleanValue TURTLE_TRADE;
-	public static ForgeConfigSpec.BooleanValue VILLAGER_TRADE;
-	public static ForgeConfigSpec.BooleanValue WOLF_TRADE;
+	public static ModConfigSpec.BooleanValue ALLAY_TRADE;
+	public static ModConfigSpec.BooleanValue ARMADILLO_TRADE;
+	public static ModConfigSpec.BooleanValue AXOLOTL_TRADE;
+	public static ModConfigSpec.BooleanValue BAT_TRADE;
+	public static ModConfigSpec.BooleanValue BEAR_TRADE;
+	public static ModConfigSpec.BooleanValue BEE_TRADE;
+	public static ModConfigSpec.BooleanValue CAMEL_TRADE;
+	public static ModConfigSpec.BooleanValue CAT_TRADE;
+	public static ModConfigSpec.BooleanValue DOLPHIN_TRADE;
+	public static ModConfigSpec.BooleanValue FOX_TRADE;
+	public static ModConfigSpec.BooleanValue FROG_TRADE;
+	public static ModConfigSpec.BooleanValue GOAT_TRADE;
+	public static ModConfigSpec.BooleanValue HORSE_TRADE;
+	public static ModConfigSpec.BooleanValue IRON_GOLEM_TRADE;
+	public static ModConfigSpec.BooleanValue LLAMA_TRADE;
+	public static ModConfigSpec.BooleanValue PARROT_TRADE;
+	public static ModConfigSpec.BooleanValue PIGLIN_TRADE;
+	public static ModConfigSpec.BooleanValue SNIFFER_TRADE;
+	public static ModConfigSpec.BooleanValue SNOW_GOLEM_TRADE;
+	public static ModConfigSpec.BooleanValue SQUID_TRADE;
+	public static ModConfigSpec.BooleanValue STRIDER_TRADE;
+	public static ModConfigSpec.BooleanValue TURTLE_TRADE;
+	public static ModConfigSpec.BooleanValue VILLAGER_TRADE;
+	public static ModConfigSpec.BooleanValue WOLF_TRADE;
+	
+	public static HashMap<String, ModConfigSpec.BooleanValue> conditionKeys = new HashMap<String, ModConfigSpec.BooleanValue>();
 	
 	
 	static {
 		
-		ForgeConfigSpec.Builder COMMON_BUILDER = new ForgeConfigSpec.Builder();
+		ModConfigSpec.Builder COMMON_BUILDER = new ModConfigSpec.Builder();
 		
 		COMMON_BUILDER.comment("Enable/Disable Meat").push(CATEGORY_MEAT);
 		ALLAY_MEAT = COMMON_BUILDER.comment("Enable Allay Meat?").define("enableAllayMeat", true);
+		ARMADILLO_MEAT = COMMON_BUILDER.comment("Enable Armadillo Meat?").define("enableArmadilloMeat", true);
 		AXOLOTL_MEAT = COMMON_BUILDER.comment("Enable Axolotl Meat?").define("enableAxolotlMeat", true);
 		BAT_MEAT = COMMON_BUILDER.comment("Enable Bat Meat?").define("enableBatMeat", true);
 		BEE_MEAT = COMMON_BUILDER.comment("Enable Bee Meat?").define("enableBeeMeat", true);
@@ -100,7 +105,7 @@ public class Config {
 		SNOW_GOLEM_MEAT = COMMON_BUILDER.comment("Enable Snow Golem Meat?").define("enableSnowGolemMeat", true);
 		SQUID_MEAT = COMMON_BUILDER.comment("Enable Squid Meat?").define("enableSquidMeat", true);
 		STRIDER_MEAT = COMMON_BUILDER.comment("Enable Strider Meat?").define("enableStriderMeat", true);
-		TRADER_LLAMA_MEAT = COMMON_BUILDER.comment("Enable Llama Meat from Trader Llamas?").define("enableTraderLlamasMeat", true);
+		TRADER_LLAMA_MEAT = COMMON_BUILDER.comment("Enable Llama Meat from Trader Llamas?").define("enableTraderLlamaMeat", true);
 		TURTLE_MEAT = COMMON_BUILDER.comment("Enable Turtle Meat?").define("enableTurtleMeat", true);
 		VILLAGER_MEAT = COMMON_BUILDER.comment("Enable Villager Meat from Villagers? (Also affects noses)").define("enableVillagerMeat", true);
 		WANDERING_TRADER_MEAT = COMMON_BUILDER.comment("Enable Villager Meat from Wandering Traders? (Also affects noses)").define("enableWanderingTraderMeat", true);
@@ -118,6 +123,7 @@ public class Config {
 		SQUID_TRADE = COMMON_BUILDER.comment("Enable Squid Meat Trades? (Default: True)").define("enableSquidMeatTrades", true);
 		WOLF_TRADE = COMMON_BUILDER.comment("Enable Wolf Meat Trades? (Default: True)").define("enableWolfMeatTrades", true);
 		ALLAY_TRADE = COMMON_BUILDER.comment("Enable Allay Meat Trades? (Default: False)").define("enableAllayMeatTrades", false);
+		ARMADILLO_TRADE = COMMON_BUILDER.comment("Enable Armadillo Meat Trades? (Default: False)").define("enableArmadilloMeatTrades", false);
 		AXOLOTL_TRADE = COMMON_BUILDER.comment("Enable Axolotl Meat Trades? (Default: False)").define("enableAxolotlMeatTrades", false);
 		BAT_TRADE = COMMON_BUILDER.comment("Enable Bat Meat Trades? (Default: False)").define("enableBatMeatTrades", false);
 		BEE_TRADE = COMMON_BUILDER.comment("Enable Bee Meat Trades? (Default: False)").define("enableBeeMeatTrades", false);
@@ -134,5 +140,38 @@ public class Config {
 		COMMON_BUILDER.pop();
 		
 		COMMON_CONFIG = COMMON_BUILDER.build();
+		
+		conditionKeys.put("allay_config", ALLAY_MEAT);
+		conditionKeys.put("armadillo_config", ARMADILLO_MEAT);
+		conditionKeys.put("axolotl_config", AXOLOTL_MEAT);
+		conditionKeys.put("bat_config", BAT_MEAT);
+		conditionKeys.put("bee_config", BEE_MEAT);
+		conditionKeys.put("camel_config", CAMEL_MEAT);
+		conditionKeys.put("cat_config", CAT_MEAT);
+		conditionKeys.put("dolphin_config", DOLPHIN_MEAT);
+		conditionKeys.put("donkey_config", DONKEY_MEAT);
+		conditionKeys.put("glow_squid_config", BAT_MEAT);
+		conditionKeys.put("fox_config", FOX_MEAT);
+		conditionKeys.put("frog_config", FROG_MEAT);
+		conditionKeys.put("goat_config", GOAT_MEAT);
+		conditionKeys.put("horse_config", HORSE_MEAT);
+		conditionKeys.put("iron_golem_config", IRON_GOLEM_MEAT);
+		conditionKeys.put("llama_config", LLAMA_MEAT);
+		conditionKeys.put("mule_config", MULE_MEAT);
+		conditionKeys.put("ocelot_config", OCELOT_MEAT);
+		conditionKeys.put("panda_config", PANDA_MEAT);
+		conditionKeys.put("parrot_config", PARROT_MEAT);
+		conditionKeys.put("piglin_config", PIGLIN_MEAT);
+		conditionKeys.put("piglin_brute_config", PIGLIN_BRUTE_MEAT);
+		conditionKeys.put("polar_bear_config", POLAR_BEAR_MEAT);
+		conditionKeys.put("sniffer_config", SNIFFER_MEAT);
+		conditionKeys.put("snow_golem_config", SNOW_GOLEM_MEAT);
+		conditionKeys.put("squid_config", SQUID_MEAT);
+		conditionKeys.put("strider_config", STRIDER_MEAT);
+		conditionKeys.put("trader_llama_config", TRADER_LLAMA_MEAT);
+		conditionKeys.put("turtle_config", TURTLE_MEAT);
+		conditionKeys.put("villager_config", VILLAGER_MEAT);
+		conditionKeys.put("wandering_trader_config", WANDERING_TRADER_MEAT);
+		conditionKeys.put("wolf_config", WOLF_MEAT);
 	}
 }

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "ingredient": {
+    "item": "dropthemeat:piglin_porkchop"
+  },
+  "result": {
+     "id": "dropthemeat:cooked_piglin_porkchop"
+  },
+  "experience": 0.35,
+  "cookingtime": 100
+}

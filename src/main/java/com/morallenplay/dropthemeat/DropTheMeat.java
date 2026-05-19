@@ -1,63 +1,40 @@
 package com.morallenplay.dropthemeat;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import org.slf4j.Logger;
 
-import com.morallenplay.dropthemeat.init.CreativeTabRegistry;
-import com.morallenplay.dropthemeat.init.ItemInit;
+import com.mojang.logging.LogUtils;
+import com.morallenplay.dropthemeat.registry.ConditionRegistry;
+import com.morallenplay.dropthemeat.registry.CreativeTabRegistry;
+import com.morallenplay.dropthemeat.registry.ItemRegistry;
 import com.morallenplay.dropthemeat.setup.Config;
 
-import net.minecraft.network.chat.Component;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.ItemStack;
-import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.ModLoadingContext;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.config.ModConfig;
-import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
-import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.minecraftforge.event.server.ServerStartingEvent;
-import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.neoforged.bus.api.IEventBus;
+import net.neoforged.fml.common.Mod;
+import net.neoforged.fml.config.ModConfig;
+import net.neoforged.fml.ModContainer;
+import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 
-@SuppressWarnings("unused")
-@Mod("dropthemeat")
+@Mod(DropTheMeat.MODID)
 public class DropTheMeat
 {
-    private static final Logger LOGGER = LogManager.getLogger();
-    public static final String MOD_ID = "dropthemeat";
-    public static DropTheMeat instance;
-
-    public DropTheMeat() {
-    	final IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
-    	modEventBus.addListener(this::setup);
-    	modEventBus.addListener(this::doClientStuff);
-    	
-    	ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Config.COMMON_CONFIG);
-    	
-    	ItemInit.ITEMS.register(modEventBus);
-    	
-    	CreativeTabRegistry.CREATIVE_TABS.register(modEventBus);
-    	
-    	instance = this;
-    	
-        MinecraftForge.EVENT_BUS.register(this);
-    }
-
-    private void setup(final FMLCommonSetupEvent event)
+	
+    public static final String MODID = "dropthemeat";
+    
+    @SuppressWarnings("unused")
+	private static final Logger LOGGER = LogUtils.getLogger();
+    
+    public DropTheMeat(IEventBus modEventBus, ModContainer modContainer)
     {
-    	
+    	modEventBus.addListener(this::commonSetup);
+		
+        ItemRegistry.ITEMS.register(modEventBus);
+        CreativeTabRegistry.CREATIVE_MODE_TABS.register(modEventBus);
+        ConditionRegistry.LOOT_CONDITION_TYPES.register(modEventBus);
+        
+        modContainer.registerConfig(ModConfig.Type.COMMON, Config.COMMON_CONFIG);
     }
 
-    private void doClientStuff(final FMLClientSetupEvent event) {
+    private void commonSetup(final FMLCommonSetupEvent event)
+    {
     }
-
-    
-    @SubscribeEvent
-    public void onServerStarting(ServerStartingEvent event) {
-    	
-    }
-    
 }

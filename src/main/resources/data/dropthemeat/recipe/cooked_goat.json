@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "ingredient": {
+    "item": "dropthemeat:raw_goat"
+  },
+  "result": {
+     "id": "dropthemeat:cooked_goat"
+  },
+  "experience": 0.35,
+  "cookingtime": 200
+}

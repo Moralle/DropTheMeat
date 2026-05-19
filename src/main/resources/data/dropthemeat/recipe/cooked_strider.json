@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "ingredient": {
+    "item": "dropthemeat:raw_strider"
+  },
+  "result": {
+     "id": "dropthemeat:cooked_strider"
+  },
+  "experience": 0.35,
+  "cookingtime": 200
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "ingredient": {
+    "item": "dropthemeat:frozen_golem_nugget"
+  },
+  "result": {
+     "id": "dropthemeat:cooked_golem_nugget"
+  },
+  "experience": 0.35,
+  "cookingtime": 600
+}

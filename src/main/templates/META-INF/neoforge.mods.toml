@@ -1,0 +1,58 @@
+modLoader="javafml" #mandatory
+
+loaderVersion="${loader_version_range}" #mandatory
+
+license="https://github.com/Moralle/DropTheMeat/blob/main/LICENCE"
+
+issueTrackerURL="https://github.com/Moralle/DropTheMeat/issues" #optional
+
+[[mods]] #mandatory
+
+modId="dropthemeat" #mandatory
+
+version="1.7.2" #mandatory
+
+displayName="Drop The Meat" #mandatory
+
+#updateJSONURL="" #optional
+
+displayURL="https://github.com/Moralle/DropTheMeat" #optional
+
+logoFile="dropthemeat.png" #optional
+
+logoBlur=false
+
+configBackground="minecraft:textures/block/red_nether_bricks.png"
+
+credits="Moralle" #optional
+
+authors="Moralle"
+
+# The description text for the mod (multi line!) (#mandatory)
+description='''
+Adds meat to every non-monster mob.
+'''
+
+#[[mixins]]
+#config="${mod_id}.mixins.json"
+
+#[[accessTransformers]]
+#file="META-INF/accesstransformer.cfg"
+
+[[dependencies.${mod_id}]] #optional
+    # the modid of the dependency
+    modId="neoforge" #mandatory
+    type="required" #mandatory
+    versionRange="[${neo_version},)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    type="required"
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+#[features.${mod_id}]
+#openGLVersion="[3.2,)"
